@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Sport App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="texte_acceuil">Bienvenue</string>
+    <string name="bouton_inscription">Inscription</string>
+    <string name="bouton_profil">Accès au profil</string>
+
+    <string-array name="sexe_array">
+        <item>Sexe</item>
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+    <string-array name="niveau_array">
+        <item>Niveau</item>
+        <item>Novice</item>
+        <item>Débutant</item>
+        <item>Confirmé</item>
+        <item>Avancé</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string name="bouton_valider">Valider</string>
+
+    <string-array name="disponibilités_array">
+        <item>Disponibilités</item>
+        <item>1j/7</item>
+        <item>2j/7</item>
+        <item>3j/7</item>
+        <item>4j/7</item>
+        <item>5j/7</item>
+        <item>6j/7</item>
+        <item>7j/7</item>
+    </string-array>
+
+    <string-array name="objectifs_array">
+        <item>Objectifs</item>
+        <item>Prise de masse</item>
+        <item>Athlète</item>
+        <item>Force</item>
+    </string-array>
+
+    <string-array name="temps_par_seance_array">
+        <item>Temps par séance</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1h</item>
+        <item>Supérieur à 1h</item>
+    </string-array>
+    <string name="age_utilisateur">Age</string>
+    <string name="taille_utilisateur">Taille (cm)</string>
+    <string name="poids_utilisateur">Poids (kg)</string>
+    <string name="login">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+
+
+</resources>
