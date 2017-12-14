@@ -1,9 +1,11 @@
-package com.example.sportapp;
+package com.example.sportapp.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.sportapp.R;
 
 public class FinInscriptionActivity extends AppCompatActivity {
 

@@ -7,9 +7,10 @@
     <string name="bouton_profil">Accès au profil</string>
 
     <string-array name="sexe_array">
-        <item>Sexe</item>
+        <item>Sélectionner</item>
         <item>Homme</item>
         <item>Femme</item>
+        <item>Autre</item>
     </string-array>
 
     <string-array name="niveau_array">
@@ -52,8 +53,25 @@
     <string name="age_utilisateur">Age</string>
     <string name="taille_utilisateur">Taille (cm)</string>
     <string name="poids_utilisateur">Poids (kg)</string>
-    <string name="login">Nom d\'utilisateur</string>
-    <string name="password">Mot de passe</string>
+    <string name="login">Login :</string>
+    <string name="password">Mot de passe :</string>
+    <string name="ou">ou</string>
+    <string name="connexion">Connexion</string>
+    <string name="test_d_valuation">Test d\'évaluation</string>
+    <string name="prochaine_s_ance">Prochaine séance</string>
+    <string name="informations">Informations</string>
+    <string name="corde_sauter">Corde à sauter</string>
+    <string name="halt_re">Haltère</string>
+    <string name="poulie">Poulie</string>
+    <string name="barre_de_traction">Barre de traction</string>
+    <string name="mat_riel_disponible">Matériel disponible</string>
+    <string name="barre_et_poids">Barre et poids</string>
+    <string name="sexe_text">Sexe :</string>
+    <string name="date_de_naissance_text">Date de naissance :</string>
+    <string name="taille_text">Taille (cm) :</string>
+    <string name="poids_text">Poids (kg) :</string>
+    <string name="error">Error</string>
+    <string name="bonjour">Bonjour</string>
 
 
 </resources>

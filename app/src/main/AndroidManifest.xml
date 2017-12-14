@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     package="com.example.sportapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,66 +20,47 @@
             </intent-filter>
         </activity>
 
-        <!--
-        <activity
-            android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        -->
 
         <activity
-            android:name=".Info1Activity"
+            android:name=".activity.Info1Activity"
             android:icon="@mipmap/ic_launcher"
             android:label="Informations (1/2)"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".activity.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activity.MainActivity" />
         </activity>
         <activity
-            android:name=".Info2Activity"
+            android:name=".activity.Info2Activity"
             android:icon="@mipmap/ic_launcher"
             android:label="Informations (2/2)"
-            android:parentActivityName=".Info1Activity">
+            android:parentActivityName=".activity.Info1Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Info1Activity" />
+                android:value=".activity.Info1Activity" />
         </activity>
         <activity
-            android:name=".ObjectifsActivity"
+            android:name=".activity.ObjectifsActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="Objectifs et disponibilités"
-            android:parentActivityName=".Info2Activity">
+            android:parentActivityName=".activity.Info2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Info2Activity" />
+                android:value=".activity.Info2Activity" />
         </activity>
         <activity
-            android:name=".FinInscriptionActivity"
+            android:name=".activity.FinInscriptionActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="Fin de l&apos;inscription"
-            android:parentActivityName=".ObjectifsActivity">
+            android:parentActivityName=".activity.ObjectifsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ObjectifsActivity" />
+                android:value=".activity.ObjectifsActivity" />
         </activity>
         <activity
-            android:name=".ProfilActivity"
+            android:name=".activity.ProfilActivity"
             android:icon="@mipmap/ic_launcher"
-            android:label="Profil">
-        </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:icon="@mipmap/ic_launcher"
-            android:label="Connexion"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+            android:label="Profil" />
     </application>
 
 </manifest>
