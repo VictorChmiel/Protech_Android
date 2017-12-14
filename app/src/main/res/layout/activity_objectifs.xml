@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sportapp.ObjectifsActivity">
+    tools:context="com.example.sportapp.activity.ObjectifsActivity">
 
     <Spinner
         android:id="@+id/spinner"
@@ -47,7 +47,7 @@
         android:layout_marginTop="48dp"
         android:entries="@array/niveau_array"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner3" android:layout_marginStart="24dp"/>
 
     <Button
         android:id="@+id/button5"
