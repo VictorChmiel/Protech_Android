@@ -28,7 +28,7 @@ import com.google.gson.GsonBuilder;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Info1Activity extends AppCompatActivity {
+public class newUserActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.sportapp.MESSAGE";
     ScrollView scrollView;
     ProgressBar progressBar;
@@ -44,7 +44,7 @@ public class Info1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info1);
+        setContentView(R.layout.activity_new_user);
         scrollView = findViewById(R.id.scrollView);
         progressBar = findViewById(R.id.progressBar);
         login = findViewById(R.id.login);
@@ -93,7 +93,7 @@ public class Info1Activity extends AppCompatActivity {
                             AuthenticatedUser.setToken(response.get("token").toString());
                             AuthenticatedUser.setAuthentified(true);
 
-                            Intent intent = new Intent(currentActivity, Info2Activity.class);
+                            Intent intent = new Intent(currentActivity, MaterielsActivity.class);
                             scrollView.setVisibility(View.VISIBLE);
                             progressBar.setVisibility(View.INVISIBLE);
                             startActivity(intent);

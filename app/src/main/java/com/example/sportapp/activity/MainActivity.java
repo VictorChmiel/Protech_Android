@@ -16,9 +16,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.sportapp.DTO.CaracteristiqueCommandDTO;
 import com.example.sportapp.DTO.CredentialsDTO;
-import com.example.sportapp.DTO.UserCommandCaracteristiqueDTO;
 import com.example.sportapp.R;
 import com.example.sportapp.util.AuthenticatedUser;
 import com.example.sportapp.util.Util;
@@ -47,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         error_text =findViewById(R.id.error);
     }
     public void boutonInscription(View view) {
-        Intent intent = new Intent(this, Info1Activity.class);
+        Intent intent = new Intent(this, newUserActivity.class);
         startActivity(intent);
     }
 //    Intent intent = new Intent(this, ProfilActivity.class);

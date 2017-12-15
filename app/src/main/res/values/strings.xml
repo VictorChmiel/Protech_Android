@@ -24,7 +24,7 @@
 
     <string name="bouton_valider">Valider</string>
 
-    <string-array name="disponibilités_array">
+    <string-array name="disponibilites_array">
         <item>Disponibilités</item>
         <item>1j/7</item>
         <item>2j/7</item>
@@ -72,6 +72,23 @@
     <string name="poids_text">Poids (kg) :</string>
     <string name="error">Error</string>
     <string name="bonjour">Bonjour</string>
+    <string name="play_description">Play_img</string>
+    <string name="play_text">Démarer une séance</string>
+    <string name="setting_text">Modifier le profil</string>
+    <string name="stats_text">Stats</string>
+    <string name="history_text">Historique</string>
+    <string name="stats_button">stats</string>
+    <string name="history_button">history</string>
+    <string name="setting_button">setting</string>
+    <string name="change">Modifier</string>
+    <string name="mdp">Mot de passe : ******</string>
+    <string name="objectif">Objectif :</string>
+    <string name="niveau">Niveau :</string>
+    <string name="disponibilite_text">Disponibilités :</string>
+    <string name="save">Enregistrer</string>
+    <string name="nouveau_login">Nouveau login</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="change_materiels">Modifier les matériels possédés</string>
 
 
 </resources>

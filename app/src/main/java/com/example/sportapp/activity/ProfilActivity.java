@@ -3,6 +3,7 @@ package com.example.sportapp.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.sportapp.R;
@@ -21,4 +22,8 @@ public class ProfilActivity extends AppCompatActivity {
         }
     }
 
+    public void goToSettings (View view){
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
 }
