@@ -62,7 +62,7 @@
                     android:layout_marginBottom="20dp"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <EditText
                         android:id="@+id/new_login"

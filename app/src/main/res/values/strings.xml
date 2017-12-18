@@ -64,7 +64,7 @@
     <string name="halt_re">Haltère</string>
     <string name="poulie">Poulie</string>
     <string name="barre_de_traction">Barre de traction</string>
-    <string name="mat_riel_disponible">Matériel disponible</string>
+    <string name="mat_riel_disponible">Quels matériels avez-vous ?</string>
     <string name="barre_et_poids">Barre et poids</string>
     <string name="sexe_text">Sexe :</string>
     <string name="date_de_naissance_text">Date de naissance :</string>
@@ -89,6 +89,17 @@
     <string name="nouveau_login">Nouveau login</string>
     <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
     <string name="change_materiels">Modifier les matériels possédés</string>
-
-
+    <string name="titre_exercice">Titre de l\'exercice</string>
+    <string name="nb_repet">Nombre de répétition :</string>
+    <string name="zero">0</string>
+    <string name="continue_text">Terminé ?</string>
+    <string name="repos">Repos</string>
+    <string name="pass">Passer</string>
+    <string name="continu">Continuer</string>
+    <string name="image_text" />
+    <string name="felicitations">Félicitations, vous avez fini votre entrainement</string>
+    <string name="toucher_pour_continuer">Toucher pour continuer</string>
+    <string name="todo">TODO</string>
+    <string name="barre">Barre</string>
+    <string name="barre_ez">Barre_EZ</string>
 </resources>

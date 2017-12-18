@@ -66,6 +66,7 @@
             android:layout_marginBottom="8dp"
             android:background="@null"
             android:contentDescription="@string/play_description"
+            android:onClick="startSeance"
             app:layout_constraintBottom_toTopOf="@+id/play_text"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintLeft_toLeftOf="parent"
