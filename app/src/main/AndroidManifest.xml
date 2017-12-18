@@ -11,48 +11,52 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
-            android:name=".activity.Info1Activity"
+            android:name=".activity.newUserActivity"
             android:icon="@mipmap/ic_launcher"
-            android:label="Informations (1/2)"
-            android:parentActivityName=".activity.MainActivity">
+            android:label="Nouvel utilisateur"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.Info2Activity"
+            android:name=".activity.MaterielsActivity"
             android:icon="@mipmap/ic_launcher"
-            android:label="Informations (2/2)"
-            android:parentActivityName=".activity.Info1Activity">
+            android:label="Matériels disponibles"
+            android:parentActivityName=".activity.SettingsActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.Info1Activity" />
+                android:value=".activity.SettingsActivity" />
         </activity>
         <activity
             android:name=".activity.ObjectifsActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="Objectifs et disponibilités"
-            android:parentActivityName=".activity.Info2Activity">
+            android:parentActivityName=".activity.MaterielsActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.Info2Activity" />
+                android:value=".activity.MaterielsActivity" />
         </activity>
         <activity
             android:name=".activity.FinInscriptionActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="Fin de l&apos;inscription"
-            android:parentActivityName=".activity.ObjectifsActivity">
+            android:parentActivityName=".activity.ObjectifsActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.ObjectifsActivity" />
@@ -60,7 +64,28 @@
         <activity
             android:name=".activity.ProfilActivity"
             android:icon="@mipmap/ic_launcher"
-            android:label="Profil" />
+            android:label="Profil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Settings"
+            android:parentActivityName=".activity.ProfilActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.ProfilActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ExerciceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReposActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TempoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.FinActivity"></activity>
     </application>
 
 </manifest>
